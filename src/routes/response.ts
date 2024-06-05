@@ -49,3 +49,5 @@ router.get('/oauth', async (req,res) =>
         console.error(error);
     }
 });
+
+export default router;
